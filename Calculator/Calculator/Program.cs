@@ -12,47 +12,18 @@ namespace Calculator
 
             // parameter a
             Console.WriteLine("Enter a number or decimal:");
-            string inputA = Console.ReadLine();
-            double doubleA;
-            while (!Double.TryParse(inputA, out doubleA))
-            {
-                Console.WriteLine("I didn't understand that, try again:");
-                inputA = Console.ReadLine();
-            }
+            double doubleA = RequestNum(Console.ReadLine());
 
             // operator
             Console.WriteLine("Enter your operator: \n(+, -, *, or /)");
-            string inputO = Console.ReadLine();
-            while (inputO != "+" && inputO != "*" && inputO != "-" && inputO != "/")
-            {
-                Console.WriteLine("That wasn't an arithmetic operator, try again: \n(+, -, *, or /)");
-                inputO = Console.ReadLine();
-            }
+            string inputO = RequestOp(Console.ReadLine());
 
             // parameter b
-            Console.WriteLine("Enter a second number:");
-            string inputB = Console.ReadLine();
-            double doubleB;
-            while (!Double.TryParse(inputB, out doubleB) || ((doubleB == 0 || doubleA == 0) && inputO == "/"))
-            {
-                if (Double.TryParse(inputB, out doubleB) && (doubleB == 0 || doubleA == 0) && inputO == "/")
-                {
-                    Console.WriteLine("I cannot divide with a 0, try again:");
-                    while (!Double.TryParse(inputA, out doubleA) || doubleA == 0)
-                    {
-                        Console.WriteLine("Reset your first number, please:");
-                        inputA = Console.ReadLine();
-                    }
-                    if (doubleB == 0)
-                        inputB = Console.ReadLine();
-                } else
-                {
-                    Console.WriteLine("I didn't understand that, try again:");
-                    inputB = Console.ReadLine();
-                }
-            }
+            Console.WriteLine("Enter a second number or decimal:");
+            double doubleB = RequestNum(Console.ReadLine());
 
             // PRINT OUTPUT
+            // calculate
             double outcome = 0;
             switch(inputO)
             {
@@ -70,9 +41,32 @@ namespace Calculator
                     break;
             }
 
+            // print
             Console.WriteLine($"The answer is {outcome}!");
 
         }
+
+        static double RequestNum(string input)
+        {
+            double result;
+            while (!Double.TryParse(input, out result))
+            {
+                Console.WriteLine("I didn't understand that, try again:");
+                input = Console.ReadLine();
+            }
+            return result;
+        }
+
+        static string RequestOp(string opera)
+        {
+            while (opera != "+" && opera != "*" && opera != "-" && opera != "/")
+            {
+                Console.WriteLine("That wasn't an arithmetic operator, try again: \n(+, -, *, or /)");
+                opera = Console.ReadLine();
+            }
+            return opera;
+        }
+
         static double Add(double a, double b)
         {
             double c = a + b;
@@ -90,6 +84,24 @@ namespace Calculator
         }
         static double Divide(double a, double b)
         {
+            // Test for "Divide by 0 errors"
+            if (b == 0 || a == 0) { 
+                Console.WriteLine("I cannot divide with a 0, try again:");
+                string inputA = a.ToString();
+                string inputB = b.ToString();
+
+                while (!Double.TryParse(inputA, out a) || a == 0)
+                {
+                    Console.WriteLine("Reset your first number, please:");
+                    inputA = Console.ReadLine();
+                }
+                while (!Double.TryParse(inputB, out b) || b == 0)
+                {
+                    Console.WriteLine("Reset your second number, please:");
+                    inputB = Console.ReadLine();
+                }
+            }
+
             double c = a / b;
             return c;
         }
