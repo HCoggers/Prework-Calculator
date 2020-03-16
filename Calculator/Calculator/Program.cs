@@ -42,7 +42,7 @@ namespace Calculator
             }
 
             // print
-            Console.WriteLine($"The answer is {outcome}!");
+            Console.WriteLine($" {doubleA} {inputO} {doubleB} = {outcome} ");
 
         }
 
