@@ -33,7 +33,7 @@ namespace Calculator
             Console.WriteLine("Enter a second number:");
             string inputB = Console.ReadLine();
             double doubleB;
-            while (!Double.TryParse(inputB, out doubleB) || (Convert.ToDouble(inputB) == 0 && inputO == "/"))
+            while (!Double.TryParse(inputB, out doubleB) || ((doubleB == 0 || doubleA == 0) && inputO == "/"))
             {
                 if (Double.TryParse(inputB, out doubleB) && (doubleB == 0 || doubleA == 0) && inputO == "/")
                 {

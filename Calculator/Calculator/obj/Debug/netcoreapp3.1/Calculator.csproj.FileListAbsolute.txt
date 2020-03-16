@@ -9,3 +9,14 @@ C:\Users\harry\source\repos\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calcul
 C:\Users\harry\source\repos\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
 C:\Users\harry\source\repos\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
 C:\Users\harry\source\repos\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\harry\Desktop\code\week1-dotnet\Prework-Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb

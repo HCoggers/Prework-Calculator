@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harry\\source\\repos\\Calculator\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Prework-Calculator\\Calculator\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harry\\source\\repos\\Calculator\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Prework-Calculator\\Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harry\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Prework-Calculator\\Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\harry\\source\\repos\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Prework-Calculator\\Calculator\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harry\\source\\repos\\Calculator\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\harry\\Desktop\\code\\week1-dotnet\\Prework-Calculator\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
